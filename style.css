@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", serif;
+    margin: auto;
+    padding: 10%;
+    
+    
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    box-sizing: border-box;
+    display: grid;
+    max-width: 28%;
+    padding: 25px;
+    border-radius: 20px;
+    margin: auto;
+    border: 1px solid;
+    box-shadow: 6px 10px;
+    
+}
+
+svg{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    
+}
+
+.button{
+    background-color: hsl(47, 88%, 63%);
+    width: 100px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-left: 0;
+    padding: 2px;
+    
+}
+
+.button > h4{
+    font-weight: 800;
+    text-align: center;
+    padding: 1%;
+}
+
+h1{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+h2{
+    margin-bottom: 10px;
+    font-weight: 800;
+    
+}
+
+h2:hover{
+    color:  hsl(47, 88%, 63%);
+}
+
+
+
+.attribution { 
+    margin-top: 20px;
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+    
+}
+
+.image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.image h3{
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1;
+    position: relative;
+    top: 1px;
+}
